@@ -5,7 +5,7 @@ after a split. It runs it by creating a random array and applying
 the merge sort to print out the sorted array.
 """
 import rand
-import pdb
+
 
 
 def merge_sort(arr):
