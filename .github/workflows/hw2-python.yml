@@ -29,16 +29,16 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest pytest-cov
-        pytest merge_sort_test.py --cov=. --cov-report=xml
+        pytest hw2/merge_sort_test.py --cov=. --cov-report=xml
     - name: Static analysis with autopep8
       run: |
         pip install --upgrade autopep8
-        autopep8 -v hw2_debugging.py
+        autopep8 -v hw2/hw2_debugging.py
     - name: Static analysis with pyflakes
       run: |
         pip install pyflakes
-        pyflakes hw2_debugging.py
+        pyflakes hw2/hw2_debugging.py
     - name: Static analysis with pylint
       run: |
         pip install pylint
-        pylint hw2_debugging.py
+        pylint hw2/hw2_debugging.py
