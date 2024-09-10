@@ -1,7 +1,7 @@
 """
-This is a file to do a merge sort on an array. It uses a 
-recursive algorithm and has a helper function to recombine 
-after a split. It runs it by creating a random array and applying 
+This is a file to do a merge sort on an array. It uses a
+recursive algorithm and has a helper function to recombine
+after a split. It runs it by creating a random array and applying
 the merge sort to print out the sorted array.
 """
 import rand
@@ -9,7 +9,7 @@ import rand
 
 def merge_sort(arr):
     """
-    This is a recursive function to split the 
+    This is a recursive function to split the
     array in half repeatedly and then apply the merge sort
     """
     if len(arr) == 1:
