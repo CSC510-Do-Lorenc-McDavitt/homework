@@ -34,11 +34,16 @@ jobs:
       run: |
         pip install --upgrade autopep8
         autopep8 -v --aggressive hw2/hw2_debugging.py
-    - name: Static analysis with pyflakes
-      run: |
-        pip install pyflakes
-        pyflakes hw2/hw2_debugging.py
     - name: Static analysis with pylint
       run: |
         pip install pylint
         pylint hw2/hw2_debugging.py
+    - name: Static analysis with pyflakes
+      run: |
+        pip install pyflakes
+        pyflakes hw2/hw2_debugging.py
+    - name: Generate pyflakes badge
+      run: |
+        pip install genbadge[all]
+        genbadge flake8
+        
