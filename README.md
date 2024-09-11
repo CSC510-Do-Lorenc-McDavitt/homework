@@ -1,5 +1,5 @@
 ![Static Badge](https://img.shields.io/badge/language-Python-yellow)
-![GitHub License](https://img.shields.io/github/license/CSC510-Do-Lorenc-McDavitt/HW1)
+![GitHub License](https://img.shields.io/github/license/CSC510-Do-Lorenc-McDavitt/homework)
 ![Static Badge](https://img.shields.io/badge/platform-Linux-orange)
-[![.github/workflows/python-app.yml](https://github.com/CSC510-Do-Lorenc-McDavitt/HW1/actions/workflows/python-app.yml/badge.svg)](https://github.com/CSC510-Do-Lorenc-McDavitt/HW1/actions/workflows/python-app.yml)
-![Codecov](https://img.shields.io/codecov/c/github/CSC510-Do-Lorenc-McDavitt/HW1)
+[![.github/workflows/python-app.yml](https://github.com/CSC510-Do-Lorenc-McDavitt/homework/actions/workflows/hw2-python.yml/badge.svg)](https://github.com/CSC510-Do-Lorenc-McDavitt/homework/actions/workflows/hw2-python.yml)
+![Codecov](https://img.shields.io/codecov/c/github/CSC510-Do-Lorenc-McDavitt/homework)
