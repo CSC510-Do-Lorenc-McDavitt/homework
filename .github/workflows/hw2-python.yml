@@ -45,6 +45,6 @@ jobs:
     - name: Generate pyflakes badge
       run: |
         pip install genbadge[all]
-        flake8 <src_folder> --exit-zero --format=html --htmldir ./reports/flake8 --statistics --tee --output-file flake8stats.txt
+        flake8 ./hw2 --exit-zero --format=html --htmldir ./reports/flake8 --statistics --tee --output-file flake8stats.txt
         genbadge flake8
         
