@@ -29,6 +29,6 @@ jobs:
     - name: Run Pyflakes
       run: |
         pip install pyflakes
-        pyflakes hw2/hw2_debugging.py
+        pyflakes hw2/hw2_debugging.py && pyflakes hw2/rand.py
 
         
