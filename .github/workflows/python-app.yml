@@ -5,9 +5,9 @@ name: tests
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "hw1" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main", "hw1" ]
 
 permissions:
   contents: read
@@ -29,7 +29,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest pytest-cov
-        pytest test.py --cov=. --cov-report=xml
+        pytest hw1/test.py --cov=. --cov-report=xml
     - name: Upload coverage reports to Codecov with GitHub Action
       if: always()
       uses: codecov/codecov-action@v4.2.0
