@@ -29,4 +29,4 @@ jobs:
     - name: Static analysis with autopep8
       run: |
         pip install --upgrade autopep8
-        autopep8 -v --aggressive hw2/hw2_debugging.py
+        autopep8 -v --aggressive --exit-code hw2_debugging.py && autopep8 -v --aggressive --exit-code rand.py
