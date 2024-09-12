@@ -29,4 +29,4 @@ jobs:
     - name: Run Pylint
       run: |
         pip install pylint
-        pylint hw2_debugging.py && pylint rand.py    
+        pylint hw2/hw2_debugging.py && pylint hw2/rand.py    
