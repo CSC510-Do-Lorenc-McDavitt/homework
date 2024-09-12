@@ -1,0 +1,3 @@
+pyflakes rand.py
+
+(no output)

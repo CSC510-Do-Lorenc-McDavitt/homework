@@ -1,0 +1,4 @@
+Command: pylint hw2_debugging.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 4.58/10, +5.42)
